@@ -31,12 +31,19 @@ ul {
     margin-left: 0;
     margin-right: 0px;
     height: 450px;
+padding-bottom: 100px;
+    
 }
+
+
+
 .left {
     display: flex;
     flex-direction: column;
 }
-img {flex-shrink: 1}
+.main-pic img { width: 400px;
+    height: 250px;
+flex: 1}
 
 button {
     padding: 8px 16px;
